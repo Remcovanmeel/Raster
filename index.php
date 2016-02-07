@@ -11,5 +11,8 @@
 </head>
 
 <body>
-  <script type="text/javascript" src="js/raster.js"></script> 
+    <script type="text/javascript" src="raster/modules/visual.js"></script>
+    <script type="text/javascript" src="raster/modules/caching.js"></script>
+    <script type="text/javascript" src="raster/modules/events.js"></script>
+    <script type="text/javascript" src="raster/raster.js"></script> 
 </body>
