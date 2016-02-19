@@ -5,7 +5,7 @@ function visualize(){
     visualizeReach(raster);
     visualizeRoute(raster);
 
-    document.body.innerHTML = visuals;
+    document.getElementById('visuals').innerHTML = "<iframe style='position:absolute; left:0; top:0;' src='http://hupsakee.dev.rb-media.nl' scrolling=no width='100%' height='100%'></iframe>" + visuals;
 }
 
 
