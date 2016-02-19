@@ -1,2 +1,7 @@
 # Raster
-Heatmap tool
+## Roadmap
+
+- Recordings
+- Dashboard
+- Element relative pointers
+- Compressed version
