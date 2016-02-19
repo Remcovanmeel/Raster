@@ -1,5 +1,5 @@
 
-function __visualizer(){
+function visualizer(){
     visuals = "";
 
     this.visualizeTargets(raster);
@@ -25,7 +25,6 @@ function __visualizer(){
             visuals = visuals + "<i style='left: " + obj.cursorEvents.route[i].x + "px; top: " + (obj.cursorEvents.route[i].y + obj.cursorEvents.route[i].z) + "px; position:absolute; background:#3BAFB0; border:solid 2px #54FBFC; border-radius:50%; height: 5px; width: 5px; display:block; z-index:10;'></i>"
         };
     }
-
 
     this.visualizeAll = function () {
         visuals = "";
